@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trip to Murshidabad - Super Success</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #fff3e0, #ffe0b2);
+      margin: 0;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      background-color: #ff7043;
+      color: white;
+      padding: 20px;
+      border-radius: 0 0 20px 20px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    .header p {
+      margin: 6px 0;
+      font-size: 16px;
+    }
+    .tagline {
+      text-align: center;
+      background-color: #ffca28;
+      color: #212121;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .topic {
+      background-color: #fff8e1;
+      padding: 15px;
+      border-left: 5px solid #ff9800;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 600px;
+      font-size: 18px;
+    }
+    .card {
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 500px;
+      margin: 20px auto;
+      color: #333;
+    }
+    .male {
+      background-color: #e1f5fe;
+      border-left: 6px solid #039be5;
+    }
+    .female {
+      background-color: #fce4ec;
+      border-left: 6px solid #d81b60;
+    }
+    .text {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .btn:hover {
+      background-color: #388e3c;
+    }
+    .footer {
+      text-align: center;
+      font-size: 16px;
+      padding: 20px;
+      background-color: #fff3e0;
+      border-top: 3px dashed #ff9800;
+      margin-top: 30px;
+    }
+    .flag {
+      display: block;
+      margin: 10px auto;
+      max-width: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>🇮🇳 Super Success Computer Education Center</h1>
+    <p>22/1 Bipin Paul Road, Nimta Shyamaprasad Nagar, Kolkata 700049</p>
+    <p>📞 8017247298 / 9874152080</p>
+  </div>
+
+  <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="Indian Flag" class="flag">
+
+  <div class="topic">
+    <strong>বিষয় :- দুটি বন্ধু মুর্শিদাবাদ ঘুরতে গিয়েছে</strong><br><br>
+    দুটি ভালো বন্ধু রাহুল এবং সুমনা শীতের ছুটিতে মুর্শিদাবাদ ঘুরতে গিয়েছিল। মুর্শিদাবাদ একটি ঐতিহাসিক স্থান, যা নবাবদের ইতিহাস এবং শাহী স্থাপত্যের জন্য বিখ্যাত। তারা হাজারদুয়ারি রাজপ্রাসাদ, কাঠগোলা বাগান, ইমামবাড়া, এবং মোটিজীল পরিদর্শন করেছিল। তারা স্থানীয় খাবার যেমন চিংড়ি মালাইকারি, তিলের নাড়ু, এবং রসগোল্লা উপভোগ করেছিল। মুর্শিদাবাদ ঘুরে তারা অনেক ইতিহাস জানতে পেরেছিল এবং বেশ কিছু সুন্দর ছবি তুলেছিল। এই ভ্রমণ তাদের জন্য এক সুন্দর অভিজ্ঞতা হয়ে থাকল।
+  </div>
+
+  <div class="tagline">
+    🧳 A Trip to Murshidabad | Learn English with Real Conversations
+  </div>
+
+  <!-- New Dialogues -->
+  <div class="card male"><div class="text">👦 Rahul: Wow! Murshidabad is really beautiful.</div><button class="btn" onclick="speak('Wow! Murshidabad is really beautiful.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Yes! I love the old buildings and palaces.</div><button class="btn" onclick="speak('Yes! I love the old buildings and palaces.', 'female')">🔊 Female</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Great idea! I also want to try local sweets.</div><button class="btn" onclick="speak('Great idea! I also want to try local sweets.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: Sure! I heard the rasgullas here are famous.</div><button class="btn" onclick="speak('Sure! I heard the rasgullas here are famous.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Let’s take some photos too!</div><button class="btn" onclick="speak('Let’s take some photos too!', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: I want to visit the Nizamat Imambara next.</div><button class="btn" onclick="speak('I want to visit the Nizamat Imambara next.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Okay. Then we can go to the Motijheel.</div><button class="btn" onclick="speak('Okay. Then we can go to the Motijheel.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: The trip is really exciting!</div><button class="btn" onclick="speak('The trip is really exciting!', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: I’ll remember it forever.</div><button class="btn" onclick="speak('I’ll remember it forever.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: Look at that big gate!</div><button class="btn" onclick="speak('Look at that big gate!', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: That’s the entrance to the palace, right?</div><button class="btn" onclick="speak('That’s the entrance to the palace, right?', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: Yes, let’s take a selfie here.</div><button class="btn" onclick="speak('Yes, let’s take a selfie here.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Done! Now let’s explore inside.</div><button class="btn" onclick="speak('Done! Now let’s explore inside.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: The paintings are so old and beautiful.</div><button class="btn" onclick="speak('The paintings are so old and beautiful.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: I feel like I’m walking in history.</div><button class="btn" onclick="speak('I feel like I’m walking in history.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: Let’s ask the guide about this place.</div><button class="btn" onclick="speak('Let’s ask the guide about this place.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Good idea! We’ll learn more that way.</div><button class="btn" onclick="speak('Good idea! We’ll learn more that way.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: I’m feeling a bit hungry now.</div><button class="btn" onclick="speak('I’m feeling a bit hungry now.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Let’s eat something local.</div><button class="btn" onclick="speak('Let’s eat something local.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: The garden near the palace is so peaceful.</div><button class="btn" onclick="speak('The garden near the palace is so peaceful.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Yes, let's sit here for a while.</div><button class="btn" onclick="speak('Yes, let\'s sit here for a while.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: Did you know this palace has more than 1000 doors?</div><button class="btn" onclick="speak('Did you know this palace has more than 1000 doors?', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Really? That’s why it’s called “Hazarduari”!</div><button class="btn" onclick="speak('Really? That’s why it’s called “Hazarduari”!', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: Let’s visit Katra Mosque next.</div><button class="btn" onclick="speak('Let’s visit Katra Mosque next.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Sure. I heard it has amazing architecture.</div><button class="btn" onclick="speak('Sure. I heard it has amazing architecture.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: After that, we can go boating in Motijheel.</div><button class="btn" onclick="speak('After that, we can go boating in Motijheel.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: That would be so much fun!</div><button class="btn" onclick="speak('That would be so much fun!', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: Don’t forget to buy some souvenirs.</div><button class="btn" onclick="speak('Don’t forget to buy some souvenirs.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Of course! I’ll get some handmade things.</div><button class="btn" onclick="speak('Of course! I’ll get some handmade things.', 'female')">🔊 Female</button></div>
+  <div class="card male"><div class="text">👦 Rahul: This trip made me love history.</div><button class="btn" onclick="speak('This trip made me love history.', 'male')">🔊 Male</button></div>
+  <div class="card female"><div class="text">👧 Sumana: Same here. I want to visit more historical places.</div><button class="btn" onclick="speak('Same here. I want to visit more historical places.', 'female')">🔊 Female</button></div>
+
+  <div class="footer">
+    🧠 উপদেশ: ইংরেজি শিখতে চাইলে এই সংলাপগুলো রোজ বলুন। উচ্চারণ প্র্যাকটিস করুন এবং আত্মবিশ্বাস বাড়ান!
+  </div>
+
+  <script>
+    let voices = [];
+    function loadVoices() {
+      voices = speechSynthesis.getVoices();
+    }
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+    loadVoices();
+    function speak(text, gender) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      const selectedVoice = voices.find(voice =>
+        voice.lang === 'en-US' && (
+          (gender === 'male' && voice.name.toLowerCase().includes('david')) ||
+          (gender === 'female' && voice.name.toLowerCase().includes('zira'))
+        )
+      );
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        speechSynthesis.speak(utterance);
+      } else {
+        alert("Voice not found yet! Please wait and try again.");
+      }
+    }
+  </script>
+
+</body>
+</html>
